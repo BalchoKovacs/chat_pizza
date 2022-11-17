@@ -1,0 +1,109 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            ""
+        ],
+        "media":null,
+        "trigger":null
+    },
+    
+    "STEP_1":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Hola Bienvenido al VADRI GAMBINO\n",
+            "para poder realizar un pedido escriba *PEDIDO* o *PIZZA* "
+        ],
+        "trigger":null
+    },
+
+    "STEP_Pedido":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Para empezar su pedido aqui tiene nuestra carta.\n",
+            "Escriba detalladamente su pedido \n",
+            "Cuando culmine escriba *LISTO*"
+        ],
+        "media":"carta.jpg",
+        "trigger":"s_especialidad"
+    },
+
+    "STEP_tipo_cita":{
+        "replyMessage":[
+            "👨🏻‍⚕️Por favor seleccione que de que manera desea su cita: \n",
+            "P : Presencial\n",
+            "V : Virtual\n" 
+        ],
+        "trigger":""
+
+    },
+
+
+    "STEP_nombre":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Porfavor ingrese su numero de documento o sus nombres y apellidos :"
+        ],
+        "trigger":"name"
+    },
+
+    "STEP_documento":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Por favor ingrese su direccion :"
+        ],
+        "trigger":"g_doc"
+    },
+
+    "STEP_telefono":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Con respecto a su pedido, envie una captura del pago correspondiente,Aceptamos  :\n",
+            "Yape : 936850886\n Plim:936950886\n y Transferencia Bancaria:\n BCP:11019029012901\nBBVA:199128920929029\nCCI(BCP):19199290292"
+
+        ],
+        "trigger":"g_telf"
+    },
+
+    "STEP_confirmacion":{
+        "replyMessage":[
+            ""
+        ],
+        "trigger":"confirmacion",
+        "actions":{
+            "title":"👨🏻‍⚕️Sus datos han sido recibido correctamente",
+            "message":"Seleccione una opcion:",
+            "buttons":[
+                {"body":"Confirmar reserva"},
+                {"body":"Cancelar"}
+
+
+            ]
+        }
+    },
+
+    "STEP_respuesta_validacion":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Excelente Su pedido se registro correctamente, Estamos validando su pago .\n",
+            "Posteriormente su pedido estaria en camino (Tiempo aproximado de llegada 15-25 min)\n",
+            "Son 30min o es GRATIS"
+            
+        ],
+        "trigger":""
+
+    },
+    "STEP_fuera_hora":{
+        "replyMessage":[
+            "👨🏻‍🍳🍕Gracias por escribirnos \n",
+            "La atención es de 3:00 pm a 11:00 pm por favor vuelva a escribir el dia de mañana"
+            
+        ],
+        "trigger":""
+
+    },
+
+    "STEP_4":{
+        "replyMessage":[
+            "Gracias a ti! \n"
+        ],
+        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
+        "trigger":null
+    }
+
+
+
+}

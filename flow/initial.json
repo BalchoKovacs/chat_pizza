@@ -1,0 +1,91 @@
+[
+    {
+        "keywords": [
+            "hola",
+            "hola!",
+            "ola",
+            "ole",
+            "inicio",
+            "welcome",
+            "buenos días",
+            "buenos dias",
+            "buenas tardes",
+            "buenas noches",
+            "me dieron este número",
+            "necesito saber",
+            "aloha"
+        ],
+        "key": "STEP_1"
+    },
+    {
+        "keywords": [
+            "pizza",
+            "deseo una pizza",
+            "pedido"
+        ],
+        "key": "STEP_Pedido"
+    },
+    {
+        "keywords": [
+            "listo",
+            "c",
+            "d",
+            "f"
+        ],
+        "key": "STEP_nombre"
+    },
+    {
+        "keywords": [
+            "b",
+            "e"
+        ],
+        "key": "STEP_nombre"
+    },
+    {
+        "keywords": [
+            "cita virtual",
+            "v",
+            "virtual",
+            "cita presencial",
+            "p",
+            "presencial"
+        ],
+        "key": "STEP_nombre"
+    },
+    {
+        "keywords": [
+            "send_nombre"
+        ],
+        "key": "STEP_nombre"
+    },
+    {
+        "keywords": [
+            "send_documento"
+        ],
+        "key": "STEP_documento"
+    },
+    {
+        "keywords": [
+            "send_telefono"
+        ],
+        "key": "STEP_telefono"
+    },
+    {
+        "keywords": [
+            "send_confirmacion"
+        ],
+        "key": "STEP_confirmacion"
+    },
+    {
+        "keywords": [
+            "send_respuesta"
+        ],
+        "key": "STEP_respuesta_validacion"
+    },
+    {
+        "keywords": [
+            "fuera_hora"
+        ],
+        "key": "STEP_fuera_hora"
+    }
+]
